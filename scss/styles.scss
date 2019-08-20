@@ -505,6 +505,7 @@
   ul {
     li {
       a {
+
         &:hover,
         &:focus {
           color: #00d921;
@@ -695,6 +696,8 @@
 }
 
 .plastic-windows-text {
+  padding-bottom: 50px;
+
   p {
     color: #000000;
     font-family: "Segoe UI";
@@ -713,4 +716,8 @@
   font-size: 14px;
   font-weight: 400;
   padding-top: 20px;
+}
+
+.our-works {
+  padding-top: 24px;
 }

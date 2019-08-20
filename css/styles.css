@@ -762,6 +762,10 @@
   margin: 0;
 }
 
+.plastic-windows-text {
+  padding-bottom: 50px;
+}
+
 .plastic-windows-text p {
   color: #000000;
   font-family: "Segoe UI";
@@ -779,5 +783,9 @@
   font-size: 14px;
   font-weight: 400;
   padding-top: 20px;
+}
+
+.our-works {
+  padding-top: 24px;
 }
 /*# sourceMappingURL=styles.css.map */
