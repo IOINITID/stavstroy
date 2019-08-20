@@ -336,3 +336,126 @@
     border: none;
   }
 }
+
+.another-production {
+  padding-top: 46px;
+
+  h2 {
+    padding-bottom: 40px;
+  }
+}
+
+.another-production-item {
+  width: 400px;
+  height: 310px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+
+  img {
+    padding-bottom: 15px;
+  }
+
+  span {
+    padding-left: 20px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.our-partners {
+  h2 {
+    color: #434343;
+    font-family: "Segoe UI";
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 24px;
+    margin: 0;
+  }
+
+  p {
+    color: #434343;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 44px;
+    margin: 0;
+  }
+}
+
+.we-are-proud {
+  h2 {
+    margin: 0;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  p {
+    padding-bottom: 28px;
+    margin: 0;
+    color: #434343;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  a {
+    margin-top: 85px;
+    margin-bottom: 68px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #00d921;
+    padding: 16px 81px;
+    display: inline-block;
+    margin-right: 50px;
+
+    &:last-child {
+      background-color: #363636;
+      margin: 0;
+    }
+  }
+}
+
+.we-are-proud-item {
+  margin-bottom: 20px;
+}
+
+.windows-company {
+  padding-bottom: 70px;
+}
+
+.windows-company-info {
+  height: 268px;
+  background-color: #4b9441;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.windows-company-info-item {
+  span {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    font-size: 58px;
+  }
+
+  p {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
