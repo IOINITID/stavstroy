@@ -777,6 +777,17 @@
   font-weight: 700;
 }
 
+.plastic-windows-text a {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: #00d921;
+  padding: 16px 81px;
+  display: inline-block;
+}
+
 .windows-text {
   color: #808080;
   font-family: "Segoe UI";
@@ -787,5 +798,36 @@
 
 .our-works {
   padding-top: 24px;
+}
+
+.contacts-text p {
+  margin: 0;
+}
+
+.contacts-text-schedule {
+  padding-top: 20px;
+}
+
+.contacts-text-contacts {
+  padding-bottom: 20px;
+}
+
+.contacts-text-contacts a {
+  color: #000000;
+}
+
+.contacts-text-email a {
+  color: #000000;
+}
+
+.contacts {
+  padding-top: 24px;
+  padding-bottom: 50px;
+}
+
+.contacts h2 {
+  margin: 0;
+  margin-right: auto;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
