@@ -459,3 +459,131 @@
   }
 }
 
+.footer-background {
+  background-color: #7e7e7e;
+}
+
+.footer {
+  height: 410px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-items {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-item {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      a {
+        color: #ffffff;
+        font-family: "Segoe UI";
+        font-size: 18px;
+        font-weight: 400;
+
+        &:hover,
+        &:focus {
+          color: #363636;
+        }
+      }
+    }
+  }
+}
+
+.footer-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  span {
+    color: #989898;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+
+    &:first-child {
+      color: #ffffff;
+      font-family: "Segoe UI";
+      font-size: 20px;
+      font-weight: 700;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background-image: url("../img/footer-time-icon.svg");
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0;
+
+  span {
+    color: #989898;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+
+    &:first-child {
+      color: #ffffff;
+      font-family: "Segoe UI";
+      font-size: 20px;
+      font-weight: 700;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background-image: url("../img/footer-address-icon.svg");
+        background-repeat: no-repeat;
+        width: 11px;
+        height: 15px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  span {
+    color: #989898;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+
+    &:first-child {
+      color: #ffffff;
+      font-family: "Segoe UI";
+      font-size: 20px;
+      font-weight: 700;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background-image: url("../img/footer-contacts-icon.svg");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
