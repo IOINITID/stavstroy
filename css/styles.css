@@ -516,6 +516,10 @@
   background-color: #7e7e7e;
 }
 
+.footer-inner-background {
+  background-color: #363636;
+}
+
 .footer {
   height: 410px;
   display: -webkit-box;
@@ -551,6 +555,10 @@
 
 .footer-item ul li a:hover, .footer-item ul li a:focus {
   color: #363636;
+}
+
+.footer-inner-item ul li a:hover, .footer-inner-item ul li a:focus {
+  color: #00d921;
 }
 
 .footer-schedule {
@@ -663,5 +671,113 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.breadcrumbs {
+  border-bottom: 2px solid #dedede;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.breadcrumbs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs ul li:first-child a {
+  color: #00d921;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.breadcrumbs ul li a {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.breadcrumbs ul span {
+  padding: 0 5px;
+}
+
+.example-of-works h2 {
+  margin: 0;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 53px;
+}
+
+.example-of-works p {
+  padding-bottom: 28px;
+  margin: 0;
+  color: #434343;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.example-of-works a {
+  margin-top: 85px;
+  margin-bottom: 68px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: #00d921;
+  padding: 16px 81px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.example-of-works a:last-child {
+  background-color: #363636;
+  margin: 0;
+}
+
+.example-of-works-item {
+  margin-bottom: 20px;
+}
+
+.plastic-windows {
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+.plastic-windows h2 {
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.plastic-windows-text p {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.plastic-windows-text p b {
+  font-weight: 700;
+}
+
+.windows-text {
+  color: #808080;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
