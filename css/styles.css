@@ -820,12 +820,12 @@
   color: #000000;
 }
 
-.contacts {
+.contacts-page {
   padding-top: 24px;
   padding-bottom: 50px;
 }
 
-.contacts h2 {
+.contacts-page h2 {
   margin: 0;
   margin-right: auto;
   padding-bottom: 50px;
