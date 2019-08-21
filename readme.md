@@ -4,13 +4,18 @@
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/stavstroy/index.html
 
-Страница наши работы: 🐱 https://ioinitid.github.io/stavstroy/works.html
+Страница наши работы: 🐱 https://ioinitid.github.io/stavstroy/our-works.html
 
-Страница работа: 🌳 https://ioinitid.github.io/stavstroy/work.html
 
-Страница цены: 🦊 https://ioinitid.github.io/stavstroy/prices.html
+Страница окна: 🌳 https://ioinitid.github.io/stavstroy/windows.html
 
-Страница о нас: 📝 https://ioinitid.github.io/stavstroy/about.html
+Страница алюминивые двери: 🦊 https://ioinitid.github.io/stavstroy/aluminum-doors.html
+
+Страница металлопластиковые двери: 📝 https://ioinitid.github.io/stavstroy/metal-plastic-doors.html
+
+Страница балконы и витражи: 🌳 https://ioinitid.github.io/stavstroy/balconies-and-stained-glass-windows.html
+
+Страница рассрочка: 🦊 https://ioinitid.github.io/stavstroy/installment-plan.html
 
 Страница контакты : 🐧 https://ioinitid.github.io/stavstroy/contacts.html
 

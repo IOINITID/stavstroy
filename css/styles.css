@@ -962,4 +962,10 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+@media (max-width: 1366px) {
+  .why-us-product-item {
+    margin-bottom: 20px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
