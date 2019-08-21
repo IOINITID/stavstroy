@@ -693,6 +693,36 @@
     padding-bottom: 50px;
     margin: 0;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+
+    li {
+      &::before {
+        content: "•";
+        color: #00d921;
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  ol {
+    padding-left: 15px;
+  }
+
+  .metal-plastic-list {
+    list-style: none;
+
+    li {
+      &::before {
+        content: "";
+      }
+    }
+  }
 }
 
 .plastic-windows-text {
@@ -718,6 +748,10 @@
     background-color: #00d921;
     padding: 16px 81px;
     display: inline-block;
+  }
+
+  ol {
+    padding-left: 15px;
   }
 }
 
@@ -819,4 +853,56 @@
 .modal-header {
   padding-bottom: 0;
   border-bottom: 0;
+}
+
+.metal-plastic-doors-wrapper {
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: list;
+
+    li {
+      &::before {
+        counter-increment: list;
+        content: counter(list) ".";
+        color: #00d921;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.our-works {
+  padding-bottom: 70px;
+
+  a {
+    &:last-child {
+      background-color: #00d921;
+    }
+  }
+}
+
+.contacts-text-address,
+.contacts-text-contacts,
+.contacts-text-email {
+  p {
+    &:first-child {
+      color: #000000;
+      font-family: "Segoe UI";
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}
+
+.contacts-text-schedule {
+  p {
+    b {
+      color: #000000;
+      font-family: "Segoe UI";
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
 }

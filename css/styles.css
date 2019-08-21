@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header-top {
   height: 100px;
   display: -webkit-box;
@@ -762,6 +763,32 @@
   margin: 0;
 }
 
+.plastic-windows ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.plastic-windows ul li::before {
+  content: "•";
+  color: #00d921;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.plastic-windows ol {
+  padding-left: 15px;
+}
+
+.plastic-windows .metal-plastic-list {
+  list-style: none;
+}
+
+.plastic-windows .metal-plastic-list li::before {
+  content: "";
+}
+
 .plastic-windows-text {
   padding-bottom: 50px;
 }
@@ -786,6 +813,10 @@
   background-color: #00d921;
   padding: 16px 81px;
   display: inline-block;
+}
+
+.plastic-windows-text ol {
+  padding-left: 15px;
 }
 
 .windows-text {
@@ -892,5 +923,43 @@
 .modal-header {
   padding-bottom: 0;
   border-bottom: 0;
+}
+
+.metal-plastic-doors-wrapper ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: list;
+}
+
+.metal-plastic-doors-wrapper ol li::before {
+  counter-increment: list;
+  content: counter(list) ".";
+  color: #00d921;
+  margin-right: 5px;
+}
+
+.our-works {
+  padding-bottom: 70px;
+}
+
+.our-works a:last-child {
+  background-color: #00d921;
+}
+
+.contacts-text-address p:first-child,
+.contacts-text-contacts p:first-child,
+.contacts-text-email p:first-child {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contacts-text-schedule p b {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */
