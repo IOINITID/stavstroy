@@ -933,6 +933,70 @@
   .header-background-image {
     height: 500px;
   }
+
+  .why-us-features-item {
+    margin-bottom: 30px;
+  }
+
+  .another-production-item {
+    width: 340px;
+    height: 270px;
+
+    img {
+      width: 340px;
+    }
+  }
+
+  .footer-item {
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      display: none;
+    }
+
+    &:last-child {
+      display: flex;
+    }
+  }
+
+  .footer-schedule {
+    display: none;
+  }
+
+  .footer-address {
+    margin-right: 15px;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  .windows-company-info-item {
+    span {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+  .plastic-windows-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  .contacts-text {
+    margin-bottom: 30px;
+  }
+
+  .contacts-map {
+    iframe {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 768px) {}

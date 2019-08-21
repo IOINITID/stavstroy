@@ -982,5 +982,56 @@
   .header-background-image {
     height: 500px;
   }
+  .why-us-features-item {
+    margin-bottom: 30px;
+  }
+  .another-production-item {
+    width: 340px;
+    height: 270px;
+  }
+  .another-production-item img {
+    width: 340px;
+  }
+  .footer-item:nth-child(2), .footer-item:nth-child(3) {
+    display: none;
+  }
+  .footer-item:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-schedule {
+    display: none;
+  }
+  .footer-address {
+    margin-right: 15px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .windows-company-info-item span {
+    font-size: 40px;
+  }
+  .windows-company-info-item p {
+    font-size: 14px;
+  }
+  .plastic-windows-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .plastic-windows-image img {
+    width: 100%;
+  }
+  .contacts-text {
+    margin-bottom: 30px;
+  }
+  .contacts-map iframe {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
