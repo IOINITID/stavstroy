@@ -968,4 +968,19 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 992px) {
+  .header-menu-list li a {
+    font-size: 11px;
+  }
+  .schedule-wrapper {
+    display: none;
+  }
+  .address-wrapper {
+    margin-left: auto;
+  }
+  .header-background-image {
+    height: 500px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
