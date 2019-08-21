@@ -771,6 +771,7 @@
 .contacts-wrapper {
   display: flex;
   flex-direction: column;
+
   label {
     input {
       width: 268px;
@@ -778,11 +779,11 @@
       border-radius: 4px;
       background-color: #ebebeb;
       color: #696969;
-font-family: "Segoe UI";
-font-size: 12px;
-font-weight: 400;
-border: none;
-padding-left: 15px;
+      font-family: "Segoe UI";
+      font-size: 12px;
+      font-weight: 400;
+      border: none;
+      padding-left: 15px;
     }
   }
 }
@@ -790,20 +791,21 @@ padding-left: 15px;
 .send-button {
   width: 100%;
   color: #ffffff;
-font-family: "Segoe UI";
-font-size: 14px;
-font-weight: 700;
-width: 268px;
-height: 40px;
-border-radius: 4px;
-background-color: #ff0031;
-border: none;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 700;
+  width: 268px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ff0031;
+  border: none;
 }
 
 .modal-body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   p {
     width: 268px;
   }
