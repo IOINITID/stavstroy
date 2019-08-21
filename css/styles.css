@@ -1034,4 +1034,91 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .header-info-text h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .contacts-wrapper {
+    margin-left: auto;
+  }
+  .schedule-wrapper,
+  .address-wrapper {
+    display: none;
+  }
+  .header-info-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-menu-list {
+    display: none;
+  }
+  .why-us-product-item-wrapper {
+    margin: 0 auto;
+  }
+  .another-production-item {
+    margin: 0 auto 30px auto;
+  }
+  .we-are-proud-item {
+    text-align: center;
+  }
+  .windows-company {
+    padding-top: 30px;
+  }
+  .windows-company-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+    height: 300px;
+  }
+  .windows-company-info-item {
+    margin-bottom: 10px;
+  }
+  .footer-address {
+    display: none;
+  }
+  .footer {
+    height: 200px;
+  }
+  .another-production-item {
+    width: 100%;
+    height: 380px;
+  }
+  .another-production-item img {
+    width: 100%;
+  }
+  .we-are-proud-item img {
+    width: 100%;
+  }
+  .we-are-proud a {
+    width: 100%;
+    display: block;
+    padding: 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-info-text h1 {
+    width: 270px;
+    font-size: 30px;
+  }
+  .header-info-text a {
+    font-size: 18px;
+    padding: 10px 75px;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
