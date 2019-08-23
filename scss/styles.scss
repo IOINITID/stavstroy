@@ -429,6 +429,7 @@ body {
 
   h2 {
     padding-bottom: 40px;
+    font-weight: 700;
   }
 }
 
@@ -453,7 +454,7 @@ body {
 
 .our-partners {
   h2 {
-    color: #434343;
+    color: #000000;
     font-family: "Segoe UI";
     font-size: 28px;
     font-weight: 700;
@@ -515,6 +516,10 @@ body {
 
 .windows-company {
   padding-bottom: 70px;
+
+  h2 {
+    font-weight: 700;
+  }
 }
 
 .windows-company-info {
@@ -779,6 +784,7 @@ body {
   h2 {
     padding-bottom: 50px;
     margin: 0;
+    font-weight: 700;
   }
 
   ul {
@@ -814,6 +820,10 @@ body {
 
 .plastic-windows-text {
   padding-bottom: 50px;
+
+  h3 {
+    font-weight: 700;
+  }
 
   p {
     color: #000000;
