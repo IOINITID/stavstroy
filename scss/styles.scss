@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  src: url("../fonts/SegoeUI.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  src: url("../fonts/SegoeUI-Bold.woff") format('woff');
+}
+
 .closeBlock {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -67,6 +79,10 @@
   color: #ffffff;
 }
 
+body {
+  font-family: "Segoe UI";
+  font-weight: 400;
+}
 
 .header-top {
   height: 100px;
@@ -263,6 +279,7 @@
     margin: 0;
     padding-bottom: 15px;
     text-align: center;
+    font-weight: 700;
   }
 
   p {
@@ -979,6 +996,21 @@
 
 .mobile-icons-wrapper {
   display: none;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #00d921;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00d921;
+  font-size: 50px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1366px) {
