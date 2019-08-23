@@ -13,11 +13,51 @@
 
 <body>
 
+    <div id="menu" class="mobileMenu">
+        <div class="closeBlock">
+          <button id="mMenuClose">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+              x="0px" y="0px" viewBox="0 0 224.512 224.512" style="enable-background:new 0 0 224.512 224.512;"
+              xml:space="preserve" width="20px" height="20px">
+              <g>
+                <polygon
+                  points="224.507,6.997 217.521,0 112.256,105.258 6.998,0 0.005,6.997 105.263,112.254    0.005,217.512 6.998,224.512 112.256,119.24 217.521,224.512 224.507,217.512 119.249,112.254  "
+                  fill="#FFFFFF" />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <ul class="menu-list-mobile">
+          <li>
+            <a href="index.html">ГЛАВНАЯ</a>
+          </li>
+          <li>
+            <a href="windows.html">ОКНА</a>
+          </li>
+          <li>
+            <a href="aluminum-doors.html">ДВЕРИ</a>
+          </li>
+          <li>
+            <a href="metal-plastic-doors.html">МЕТАЛО КОНСТРУКЦИИ</a>
+          </li>
+          <li>
+            <a href="our-works.html">НАШИ РАБОТЫ</a>
+          </li>
+          <li>
+            <a href="#">О КОМПАНИИ</a>
+          </li>
+          <li>
+            <a href="contacts.html">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </div>
+      <div id="panel" class="panel page ">
+
   <div class="container">
 
     <div class="row header-top">
 
-      <div class="col-md-auto col-lg-auto col-xl-auto">
+      <div class="col-md-auto col-lg-auto col-xl-auto header-logo-wrapper">
         <a href="index.html">
           <img src="img/header-inner-logo.svg" alt="Логотип Ставстрой" title="Логотип Ставстрой" width="199"
             height="39">
@@ -74,6 +114,11 @@
           <li>
             <a href="contacts.html">КОНТАКТЫ</a>
           </li>
+          <div class="mobile-icons-wrapper">
+              <a href="#" class="btn_mobile"><img src="img/menu.svg" alt=""></a>
+              <a href="#" data-toggle="modal" data-target="#exampleModal"><img src="img/envelope.svg" alt=""></a>
+              <a href="tel:+78652213269"><img src="img/phone-call.svg" alt=""></a>
+            </div>
         </ul>
       </nav>
     </div>
@@ -258,6 +303,7 @@
   </div>
 
   <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>

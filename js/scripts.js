@@ -1,12 +1,13 @@
-// var slideout = new Slideout({
-//   'panel': document.getElementById('panel'),
-//   'menu': document.getElementById('menu'),
-//   'padding': 256,
-//   'tolerance': 70
-// });
+$('.btn_mobile').on('click', function () {
+  $('#menu').show('drop', 300, function () {
+      $('#panel').addClass('blur');
+  });
+  $('#panel').addClass('menuOpen');
+});
 
-// slideout.disableTouch();
-
-// document.querySelector('.toggle-button').addEventListener('click', function() {
-//   slideout.toggle();
-// });
+$('#mMenuClose').on('click', function () {
+  $('#menu').hide('drop', 300, function () {
+      $('#panel').removeClass('menuOpen')
+  });
+  $('#panel').removeClass('blur');
+});
